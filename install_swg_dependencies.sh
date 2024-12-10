@@ -5,9 +5,9 @@ printf "\nInstalling Dependencies for Compiling SWG\n"
 sudo zypper refresh
 sudo zypper install -y ant clang bison flex cmake \
     libaio-32bit libgcc_s1-32bit glibc-32bit glibc-devel-32bit \
-    libstdc++6-devel-gcc11-32bit ncurses-devel-32bit \
+    libstdc++6-devel-gcc13-32bit ncurses-devel-32bit \
     libxml2-devel libxml2-devel-32bit \
-    libpcre1-devel libpcre1-devel-32bit \
+    libpcre2-32bit libpcre2-devel libpcre2-devel-32bit \
     libcurl4-32bit libcurl-devel libcurl-devel-32bit \
     boost-devel boost-devel-32bit \
     sqlite3-devel sqlite3-devel-32bit libnsl-32bit
